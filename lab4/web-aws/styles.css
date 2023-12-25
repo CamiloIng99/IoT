@@ -1,0 +1,45 @@
+
+h1
+{
+color: white;
+text-align: center;
+font-size: 38pt;
+}
+
+
+
+
+p    {
+    color: white;
+    text-align: center;
+    font-size: 18pt;
+}
+
+#buttondiv
+    {
+    
+    text-align: center; 
+    display: block;
+    
+}
+
+#button1
+    {
+    color: white;
+    background-color:orangered;
+    display: inline-block;
+    text-align: center;  
+    font-size: 28pt;
+    border: 2px solid white;
+}
+
+#button1:active {
+    background-color: orangered;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+body {
+    background-color: gainsboro;
+}
